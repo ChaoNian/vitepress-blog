@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/vitepress-blog/',
   title: "WebWong 的技术记录",
   description: "A VitePress Site",
   themeConfig: {
