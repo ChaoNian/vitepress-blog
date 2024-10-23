@@ -48,6 +48,10 @@ jobs:
          # 保留 Git 信息
           fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
       - uses: pnpm/action-setup@v3 # 如果使用 pnpm，请取消注释
+       with:
+          version: '8.15.5'
+      - name: Install dependencies
+        run: pnpm install
       # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
       - name: Setup Node
         uses: actions/setup-node@v4
