@@ -1,5 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
+# 参考 https://article.juejin.cn/post/7409865546197893171
 layout: home
 
 hero:
