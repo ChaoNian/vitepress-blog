@@ -6,7 +6,7 @@ layout: home
 hero:
   name: "前端技术"
   # text: "探索记录"
-  tagline: 好奇这是一项什么技术？
+  tagline: ""
   image: 
      src: /background.svg
      alt: 背景图片

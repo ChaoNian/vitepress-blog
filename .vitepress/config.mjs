@@ -46,7 +46,7 @@ export default defineConfig({
 
     // 外链
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ChaoNian' }
+      { icon: 'github', link: 'https://github.com/ChaoNian/vitepress-blog' }
     ],
 
     // 页脚
